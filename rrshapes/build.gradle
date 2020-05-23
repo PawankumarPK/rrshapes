@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.github.dcendents.android-maven'
 group = 'handypawan.dev'
-version = '1.0'
+version = '1.1'
 
 android {
     compileSdkVersion 29
