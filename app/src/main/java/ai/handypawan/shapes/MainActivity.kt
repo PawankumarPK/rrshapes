@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-    /*    val sh = BitmapFactory.decodeResource(this.resources, R.drawable.pawan)
+       /* val sh = BitmapFactory.decodeResource(this.resources, R.drawable.pawan)
         val bm: Bitmap = Shapes.getCroppedBitmap(sh)
         imageView.setImageBitmap(bm)*/
     }
