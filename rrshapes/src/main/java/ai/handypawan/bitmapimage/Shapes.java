@@ -10,9 +10,9 @@ import android.graphics.Rect;
 /**
  * Created by pawan on 23,May,2020
  */
-public class Shapes {
+class Shapes {
 
-     public Bitmap getCroppedBitmap(Bitmap bitmap) {
+    static Bitmap getCroppedBitmap(Bitmap bitmap) {
         Bitmap output = Bitmap.createBitmap(bitmap.getWidth(),
                 bitmap.getHeight(), Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(output);

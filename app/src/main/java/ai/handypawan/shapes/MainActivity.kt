@@ -1,20 +1,20 @@
 package ai.handypawan.shapes
 
-import ai.handypawan.bitmapimage.Shapes
+import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
-    val shapes = Shapes()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        /*val bitmap = BitmapFactory.decodeResource(resources,R.drawable.pawan)
-        mImageview.setImageBitmap( shapes.getCroppedBitmap(bitmap))*/
+    /*    val sh = BitmapFactory.decodeResource(this.resources, R.drawable.pawan)
+        val bm: Bitmap = Shapes.getCroppedBitmap(sh)
+        imageView.setImageBitmap(bm)*/
     }
 }
