@@ -8,11 +8,11 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 
 /**
- * Created by pawan on 23,May,2020
+ * Created by pawan on 24,May,2020
  */
-class Shapes {
+public class Shapes {
 
-    static Bitmap getCroppedBitmap(Bitmap bitmap) {
+    public static Bitmap getCroppedBitmap(Bitmap bitmap) {
         Bitmap output = Bitmap.createBitmap(bitmap.getWidth(),
                 bitmap.getHeight(), Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(output);
