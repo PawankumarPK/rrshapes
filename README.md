@@ -5,9 +5,24 @@
 **Create a circular ImageView in Android**
 
 ### USAGE
+**Step 1. `Add it in your root build.gradle at the end of repositories:`**
+```
 
-`implementation 'com.github.PawankumarPK:rrshapes:1.4'`
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+**Step 2. `Add the dependency`**
 
+```
+dependencies {
+        implementation 'com.github.PawankumarPK:rrshapes:1.4'
+}
+
+```
 ### JAVA CLASS
 In your Activity/Fragment class
 
